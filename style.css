@@ -1,0 +1,283 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+  * {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .navbar-holder *{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+
+  html{
+   scroll-behavior: smooth ;
+
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #0cbaba;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+
+  }
+
+div.container{
+ background-color: #fff;
+ background-size: cover;
+  height: 100%;
+  padding-bottom: 100px;
+  margin-bottom: 30px;
+}
+.upper-body{
+
+  width: 100%;
+  padding: 0px 0px 15px 0px ;
+  margin-bottom: 10%;
+  position: sticky;
+  top: 0;
+
+}
+div.portfolio{
+  background-color: yellowgreen;
+  border-radius: 5px;
+  tab-size: 10ch;
+}
+a.babu{
+  font-family: 'Konkhmer Sleokchher', cursive;
+font-size: 2em;
+
+}
+
+div.navbar-holder{
+  position: sticky;
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  padding: 10px;
+  /* box-shadow: 0 2px 2px -2px rgba(0,0,0,.1); */
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+div.navbar-holder a{
+  color: #bcbbbb;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+div.navbar-holder a:hover{
+  color: #fff;
+  background-color:transparent;
+
+}
+
+.lower-body{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+img.profile-image{
+  
+   position: relative; 
+  left: 12%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid #e5e5e5;
+  margin: 5px;
+  box-shadow:  1px 1px 13px 6px black;
+  }
+h1{
+  position: relative;
+  left: 13%;
+
+}
+
+.btn-holder{
+  margin-top: 30px;
+  position: relative;
+  left: 21%;
+  display: flex;  
+  
+
+}
+
+button.clicky{
+  padding: 14px 40px;
+  border-radius: 5px;
+  background-color: chartreuse;
+  box-shadow:  1px 1px 13px 6px black;
+}
+
+
+/*  icones  */
+
+div.icones {
+  position: absolute;
+  bottom: -115px;
+  left: 40%;
+  justify-content:space-between ;
+  align-items: center;
+  margin-bottom: ;
+}
+
+.fa-brands{
+  background-color: transparent;
+  color: #140909;
+  border-radius: 40%;
+  padding: 5px;
+  font-size: 40px;
+  margin-left:  10px;;
+  margin-right: 10px;
+}
+
+.righty,.lefty{
+  
+}
+
+
+.skills{
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15%;
+  border: 12px black;
+  box-shadow:  1px 1px 13px 6px black;
+  width: 90%;
+  height: 404px;
+  display: flex;
+  background-color:transparent;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: auto;
+  padding: auto;
+
+}
+
+.skills div {
+  width: 40%;
+  
+}
+
+.test {
+  display: flex;
+  justify-content: space-between;
+}
+
+.test span:last-child {
+  text-align: center;
+  box-shadow: 12px 3px 40px 1px  #0cbaba;
+  background-image: linear-gradient(305deg,  #105454 4%, #380036 79%);;
+  width: 60%;
+  padding: 4px;
+}
+
+.righty,.lefty{
+  bottom: 65px;
+  position: relative;
+  margin: 12px;
+  margin-top: 10%;
+ 
+  width: 50%;
+  height: 400px;
+
+ 
+  
+ 
+}
+
+
+h1.aboutme , p{
+  color: white;
+}
+
+h2{
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 4%;
+}
+.professional {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.skills-container{
+  display: flex;
+  padding: auto;
+  /* position: relative; */
+  margin: 15%;
+  border: 12px black;
+  width: 90%;
+  height: 404px;
+  display: flex;
+  box-shadow:  1px 1px 13px 6px black;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  /* box-shadow: ; */
+}
+ h3 span{
+  color: chartreuse;
+  margin-left:39%; 
+}
+
+  
+
+.w3-light-grey ,.w3-container {
+  width: 600px;
+  height: 30px;
+  
+}
+
+.w3-container{
+  color: blue;
+}
+
+.xul-container{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+video:hover{
+  
+  box-shadow: 12px 12px 10px 13px black;
+  
+}
+
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+@media only screen and (min-device-width: 375px) {
+  body {
+    background-color: white;
+  }
+  
+  /* Hide all icons */
+  i {
+    display: none;
+  }
+}
+
+
